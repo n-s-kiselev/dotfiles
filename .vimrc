@@ -55,9 +55,9 @@ set statusline+=\ [%c]
 
 
 " set background=dark
-"colorscheme gruvbox
-"colorscheme atom-dark
-colorscheme molokai
+colorscheme gruvbox
+" colorscheme atom-dark
+"colorscheme molokai
 let g:molokai_original = 1
 "let g:rehash256 = 1
 set hlsearch
@@ -79,7 +79,7 @@ set t_Co=256
 syntax on "Включить подсветку синтаксиса
 
 set nu "Включаем нумерацию строк
-set rnu
+"set rnu
 set mousehide "Спрятать курсор мыши когда набираем текст
 set mouse=a "Включить поддержку мыши
 set termencoding=utf-8 "Кодировка терминала
